@@ -6,11 +6,13 @@ OpenCV version: 2.4.11
 OS: Ubuntu 16.04 LTS 
 
 Note:
+
 1. For C/C++ and python library only.
+
 2. Ubuntu 16.04 LTS and OpenCV need about 7.3 GB disk space.
 
 # How to Install
-    wget 
+    wget https://raw.githubusercontent.com/johnson18404/Install-OpenCV-on-Ubuntu/master/installopencv.sh
     sh installopencv.sh
 
 # Test
@@ -20,11 +22,11 @@ Note:
 
 
 # Compile C/C++ OpenCV program
-## C
+### C
     gcc  -o motempl motempl.c -lm  -ggdb `pkg-config --cflags opencv` `pkg-config --libs opencv`
 
 
-## C++
+### C++
 It is similiar to .c file, but need to add "-lstdc++" parameter.
 
     gcc  -o OpenCV_ViolaJones2 OpenCV_ViolaJones2.cpp -lm  -ggdb `pkg-config --cflags opencv` `pkg-config --libs opencv` -lstdc++

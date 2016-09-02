@@ -9,7 +9,8 @@ sudo apt-get install -y libavcodec-dev libavformat-dev libswscale-dev
 sudo apt-get install -y libjpeg-dev libpng-dev libtiff-dev libjasper-dev
 
 # fix qt5 problem in ubuntu 16.04 LTS
-sudo apt-get install -y qt5-default
+sudo apt-get install -y qt5-default 
+sudo apt-get install -y unzip
  
 # download opencv-2.4.11
 wget http://downloads.sourceforge.net/project/opencvlibrary/opencv-unix/2.4.11/opencv-2.4.11.zip
